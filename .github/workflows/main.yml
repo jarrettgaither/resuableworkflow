@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main
-
+  workflow_dispatch:
+  
 jobs:
   call-workflow:
     uses: jarrettgaither/bootcampexercise1/.github/workflows/getting-started.yml@main
