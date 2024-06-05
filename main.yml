@@ -1,0 +1,11 @@
+name: Calling a reusable workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  call-workflow:
+    uses: jarrettgaither/bootcampexercise1/.github/workflows/getting-started.yml@main
+    
